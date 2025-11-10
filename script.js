@@ -156,7 +156,7 @@ nav.addEventListener('mouseout', handleHover.bind(1));
 
 const observer = new IntersectionObserver(obsCallback, obsOptions);
 observer.observe(section1);
-*/
+
 
 
 const navHeight = nav.getBoundingClientRect().height;
